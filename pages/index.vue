@@ -1,7 +1,10 @@
 <template>
-  <Tutorial/>
+  <BaseLink />
 </template>
 
 <script>
-export default {}
+import BaseLink from '../components/ui/BaseLink.vue'
+export default {
+  components: { BaseLink },
+}
 </script>
